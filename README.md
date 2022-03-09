@@ -52,8 +52,12 @@ I used the isnumeric() method to check the numeric columns for input that is not
 
 I then concatenated all the files to form one table that could be used for analysis
 
-<img src= 'wireframe_dash'>
+Wireframe: https://lucid.app/lucidchart/dd2ddaab-b740-4fa0-847d-6d41a78d98d4/edit?invitationId=inv_951c5199-ecab-48bf-9453-e35bc8a46f9a
 
 ## Unsolved problems
 
+A couple of the graphs don't work exactly as they should so would need to look into whether that originates from something that happened in the clean up stage or something in the dash app.
+
 ## Favourite functions
+
+The dropdown options were a good one to create and see working.
