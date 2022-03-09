@@ -18,7 +18,11 @@ I was presented with 10 years of sales data that I had to clean and concatenate 
 
 ## Technologies used
 
-In order to clean the data and run any analysis to ensure everything was working as it should. The following libraries were imported:
+In order to clean the data and run any analysis to ensure everything was working as it should. The following technologies and libraries were used:
+Visual Studio Code
+Python
+Jupyter notebook
+Github
 os
 numpy
 pandas
@@ -26,20 +30,29 @@ petl
 
 ## Wireframes and user stories
 
-## Images
+User Storiees:
+drop downs: As a user I want to be able to select from a range of criteria so that I can see the exact data I require
+
+As a user I want to be able to vizualise the data in a easily digestible manner so that I can understand the data
+
+As a user I want to be able to click on a button that will display the data I have requested.
 
 ## Development process and data cleaning and transformation
 
 1st I cleaned up the date using Jupyter notebook.
-I installed numpy, pandas and petl then imported them as np, pd and etl respectively (SAY WHY I INSTALLED EACH OF THEM)
+I installed numpy, pandas and petl then imported them as np, pd and etl respectively
 
-I then imported one file at a time to work on and started the clean up operation.
+I then imported one file at a time to work on and started the clean up operation using the loop which goes through each file one by one to clean it up.
 
-I decided to use the petl library to perform the analysis on my data so as to prevent me having to change the data back and forth between pandas and pets as this was time consuming.
+I decided to use the petl library to perform the analysis on my data so as to prevent me having to change the data back and forth between pandas and pets as this was time consuming. I did however import and use pandas for analysis.
 
 I didn’t check for Nan’s because the data was collected by non-technical people and therefore we can assume that they wouldn’t have inputed this in any field.
 
 I used the isnumeric() method to check the numeric columns for input that is not a number so they can be removed. The two columns that didn’t have data were quantity_purchased and amount_in_gap. With each operation I ran the function etl.nrows() to count the number of rows to see if there were rows removed due to the selected column having fields that were invalid.
+
+I then concatenated all the files to form one table that could be used for analysis
+
+<img src= 'wireframe_dash'>
 
 ## Unsolved problems
 
