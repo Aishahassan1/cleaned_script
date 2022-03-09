@@ -10,7 +10,6 @@ Data cleaning on sales date completed using Python Jupyter notebook
 - Images
 - Development process and data cleaning and transformation
 - Unsolved problems
-- Favourite functions
 
 ## Introduction
 
@@ -58,8 +57,6 @@ Wireframe: https://lucid.app/lucidchart/dd2ddaab-b740-4fa0-847d-6d41a78d98d4/edi
 
 ## Unsolved problems
 
-A couple of the graphs don't work exactly as they should so would need to look into whether that originates from something that happened in the clean up stage or something in the dash app.
+A major issue faced was arround the size of the files and the amount of data included. It was preventing me from uploading to Github. So the data had to be massively compressed and reduced to work around this.
 
-## Favourite functions
-
-The dropdown options were a good one to create and see working.
+One of the graph also needs looking into as it is not working exactly as it should
