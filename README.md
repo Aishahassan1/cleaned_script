@@ -39,7 +39,9 @@ As a user I want to be able to click on a button that will display the data I ha
 
 ## Development process and data cleaning and transformation
 
-1st I cleaned up the date using Jupyter notebook.
+1st I made rough notes outlining what it was that I needed to do.
+
+I then proceeded to start with the cleaning of the date using Jupyter notebook.
 I installed numpy, pandas and petl then imported them as np, pd and etl respectively
 
 I then imported one file at a time to work on and started the clean up operation using the loop which goes through each file one by one to clean it up.
